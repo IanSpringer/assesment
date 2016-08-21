@@ -57,7 +57,7 @@ table {
 }
 html, body {
   height: 100%;
-  overflow: hidden;
+
 }
 .push {
   clear: both;
@@ -248,6 +248,4 @@ a{
     width: 385px;
   }
 
-}
-
-
+}*/
