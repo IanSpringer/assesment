@@ -6,6 +6,7 @@ var app      = express();
 var port     = process.env.PORT || 3000;
 var mongoose = require('mongoose');
 var passport = require('passport');
+var passportLocal = require("passport-local")
 var flash    = require('connect-flash');
 
 var morgan       = require('morgan');
