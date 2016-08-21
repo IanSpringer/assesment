@@ -27,6 +27,8 @@ module.exports = function(app, passport) {
       res.redirect('/login')
     })
 
+
+
     // process the login form
     // app.post('/login', do all our passport stuff here);
 
@@ -86,6 +88,18 @@ function isLoggedIn(req, res, next) {
         res.redirect('/login');
     });
 
+    app.get('/portal/project1', isLoggedIn, function(req, res){
+      res.render('project-1.ejs')
+    })
+    app.get('/portal/project2', isLoggedIn, function(req, res){
+      res.render('project-2.ejs')
+    })
+    app.get('/portal/project3', isLoggedIn, function(req, res){
+      res.render('project-3.ejs')
+    })
+    app.get('/portal/project4', isLoggedIn, function(req, res){
+      res.render('project-4.ejs')
+    })
 
 }
 

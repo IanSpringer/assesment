@@ -163,6 +163,10 @@ input:-webkit-autofill {
 .alert{
   text-align: center;
   color: red;
+  position: absolute;
+  left: 50%;
+  margin-left: -90px;
+  margin-top: 20px;
 }
 .welcome{
   padding-top: 100px;
@@ -171,7 +175,39 @@ input:-webkit-autofill {
   text-align: center;
   font-size: 46px;
   font-family: 'Oswald-Light';
-
+}
+.logout{
+  padding-top: 50px;
+  float: left;
+}
+.project-wrapper{
+  text-align: center;
+  margin-top: 100px;
+}
+.project{
+  display: inline-block;
+  color: grey;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.underline{
+  width: 200px;
+  height: 10px;
+  border-bottom: 1px solid #fe6159;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  color: grey;
+}
+.back{
+  padding-top: 90px;
+  position: absolute;
+  left: 0;
+  margin-left: 30px;
+}
+.transit{
+  opacity: 0;
 }
 @media (max-width: 1200px){
   .sec1-wrapper{
