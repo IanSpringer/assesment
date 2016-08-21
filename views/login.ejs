@@ -3,38 +3,44 @@
 <html>
 <head>
     <title>Assesment</title>
+    <script  src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
     <script src="/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.12/jquery.transit.js"></script>
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
 
 
+
   <div class="sec1">
     <div class="sec1-wrapper">
       <div class="logo">
-        <img src="http://www.slicedbread.agency/wp-content/uploads/logo-reverse-out.fw_.png" class="white-logo" alt="">
-      </div>
-      <div class="login-header">
-        <h1 class="login">Login</h1>
+        <h2 class="logo-title">slicedbread.agency</h2>
+<!-- <img src="http://www.slicedbread.agency/wp-content/uploads/logo-google-apps.png" class="default-logo" alt="">      </div>
+ -->      <div class="login-header">
+
       </div>
       <!-- show any messages that come back with authentication -->
       <% if (message.length > 0) { %>
           <div class="alert alert-danger"><%= message %></div>
       <% } %>
 
+
+
+
       <div class="form-wrapper">
         <!-- LOGIN FORM -->
         <form action="/login" method="post">
-          <div class="form-group">
-            <label>Username</label>
-            <input type="text" class="form-control" name="username">
+          <div class="form-group form-username">
+            <label class="label">Username</label><br/>
+            <input type="text" class="form username" name="username">
           </div>
-          <div class="form-group">
-            <label>Password</label>
-            <input type="password" class="form-control" name="password">
+          <div class="form-group form-password">
+            <label class="label">Password</label><br/>
+            <input type="password" class="form password" name="password">
           </div>
 
-          <button type="submit" class="btn btn-warning btn-lg">Login</button>
+          <button type="submit" class="submit">LOGIN</button>
         </form>
       </div>
     </div>

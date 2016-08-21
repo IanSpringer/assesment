@@ -29,7 +29,7 @@ app.use(express.static(__dirname + '/public'));
 
 //, cookie:{_expires : 60000000}
 // required for passport
-app.use(session({ secret: 'beer' })); // session secret
+app.use(session({ secret: 'whiskey', cookie: {maxAge: 900000} })); // session secret
 app.use(passport.initialize());
 app.use(passport.session()); // persistent login sessions
 app.use(flash()); // use connect-flash for flash messages stored in session

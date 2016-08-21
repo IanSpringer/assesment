@@ -58,7 +58,6 @@ table {
 html, body {
   height: 100%;
   overflow: hidden;
-  background: #D3D3D3
 }
 .push {
   clear: both;
@@ -66,24 +65,153 @@ html, body {
 .sec1{
   height: 100%;
   width: 100%;
+  background-color: rgb(246, 246, 246);
 }
 .sec1-wrapper{
   font-family: 'Oswald';
   letter-spacing: 3.5px;
-  width: 1000px;
+  width: 1170px;
   height: 100%;
   margin: 0 auto;
 }
 .logo{
-  width: 100px;
+  width: 100%;
   margin: 0 auto;
-  font-size: 60px;
-  margin-top: 125px;
+  padding-top: 100px;
+}
+.logo-title{
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 46px;
+  font-family: 'Oswald-Light';
+  opacity: 0;
+}
+.default-logo{
+  width: 270px;
+  margin: 0 auto;
+  opacity: 0;
 }
 .login-header{
-  margin-bottom: 40px;
+  padding-bottom: 40px;
+  width: 300px;
+  /* margin: 0 auto; */
+  text-align: center;
+  color: green;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: 20px;
+}
+.form-wrapper{
+  width: 600px;
+  margin: 0 auto;
+  height: 270px;
+  position: relative;
+  padding-top: 60px;
 }
 .form-group{
   font-family: 'Oswald-Light';
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
 }
+.form-username{
+  opacity: 0;
+}
+.form-password{
+  margin-top: 100px;
+  opacity: 0;
+}
+.form{
+    width: 300px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 16px;
+    -webkit-appearance:none;
+}
+.form:-webkit-autofill {
+    background-color: red !important;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+.submit{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 300px;
+    height: 40px;
+    margin-left: -150px;
+    background-color: #fe6159;
+    border: none;
+    color: white;
+    font-family: 'Oswald';
+    font-size: 16px;
+    border-radius: 3px;
+    opacity: 0;
+}
+.submit:hover{
+  cursor: pointer;
+}
+.label{
+  margin-left: 110px;
+}
+.alert{
+  text-align: center;
+  color: red;
+}
+.welcome{
+  padding-top: 100px;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 46px;
+  font-family: 'Oswald-Light';
+
+}
+@media (max-width: 1200px){
+  .sec1-wrapper{
+    width: 970px;
+  }
+  .form-wrapper{
+    width: 100%;
+  }
+}
+@media (max-width: 980px){
+  .sec1-wrapper{
+    width: 768px;
+  }
+  .logo{
+    width: 100%;
+  }
+  logo-title{
+    width: 768px;
+  }
+}
+@media (max-width: 767px) {
+  .sec1-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 15px;
+  }
+  .logo-title{
+    width: 100%;
+  }
+}
+@media (max-width: 480px){
+  .sec1-wrapper{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 15px;
+  }
+  logo-title{
+    width: 385px;
+  }
+
+}
+
 
