@@ -246,7 +246,7 @@ a{
     padding: 0 15px;
   }
   .logo-title{
-    width: 385px;
+    width: 100%;
   }
 }
 @media (max-width: 420px){
