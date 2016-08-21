@@ -245,8 +245,14 @@ a{
     width: 100%;
     padding: 0 15px;
   }
-  logo-title{
+  .logo-title{
     width: 385px;
   }
+}
+@media (max-width: 420px){
+  .logo-title{
+    font-size: 36px;
+  }
+}
 
-}*/
+
