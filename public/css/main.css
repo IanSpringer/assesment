@@ -68,6 +68,16 @@ html, body {
   width: 100%;
   background-color: rgb(246, 246, 246);
 }
+.sb{
+  font-family: 'Oswald';
+  position: absolute;
+  right: 0;
+  letter-spacing: 2px;
+  padding-top: 24px;
+  font-size: 24px;
+  margin-right: 20px;
+  color: grey;
+}
 .sec1-wrapper{
   font-family: 'Oswald';
   letter-spacing: 3.5px;
