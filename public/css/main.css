@@ -171,15 +171,18 @@ input:-webkit-autofill {
 }
 .welcome{
   padding-top: 100px;
-  width: 400px;
+  width: 300px;
   margin: 0 auto;
   text-align: center;
   font-size: 46px;
   font-family: 'Oswald-Light';
 }
 .logout{
-  padding-top: 50px;
+  padding-top: 30px;
   float: left;
+  position: absolute;
+  left: 0;
+  margin-left: 30px;
 }
 .project-wrapper{
   text-align: center;
@@ -190,6 +193,7 @@ input:-webkit-autofill {
   color: grey;
   margin-right: 30px;
   margin-left: 30px;
+  margin-bottom: 30px;
 }
 .underline{
   width: 200px;
@@ -202,7 +206,7 @@ a{
   color: grey;
 }
 .back{
-  padding-top: 90px;
+  padding-top: 60px;
   position: absolute;
   left: 0;
   margin-left: 30px;
