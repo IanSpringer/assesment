@@ -78,6 +78,9 @@ html, body {
   margin-right: 20px;
   color: grey;
 }
+.agency{
+  color: grey;
+}
 .sec1-wrapper{
   font-family: 'Oswald';
   letter-spacing: 3.5px;
@@ -137,7 +140,7 @@ html, body {
 .form{
     width: 300px;
     height: 35px;
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 3px;
     background-color: white;
     margin-top: 20px;
